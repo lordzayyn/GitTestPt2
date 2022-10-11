@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body{
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #020412;
+mix-blend-mode: normal;
+}
+
+.cabecalho{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 25px;
+
+}
+
+.name{
+color: white;
+font-family: 'Anton';
+font-size: 27px;
+}
+
+.botaoUm [type="button"] {
+background-color: #DC812D;
+color: white;
+border: none;
+width: 85px;
+height: 30px;
+border-radius: 20px;
+font-family: Bebas Neue;
+font-size: 16px;
+font-weight: 400;
+
+box-shadow: 2px 3px 2px rgba(165, 72, 18, 0.308);
+
+}
+
+.botaoUm [type="button"] {
+background-color: #DC812D;
+color: white;
+border: 1px;
+width: 85px;
+height: 30px;
+border-radius: 20px;
+font-family: Bebas Neue;
+font-size: 16px;
+font-weight: 400;
+
+}
+.botaoUm [type="button"]:hover{
+
+background-color: rgba(230, 140, 72, 0.53);
+
+}
